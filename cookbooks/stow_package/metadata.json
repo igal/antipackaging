@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+  },
+  "name": "stow",
+  "maintainer_email": "igal@pragmaticraft.com",
+  "attributes": {
+  },
+  "license": "MIT",
+  "suggestions": {
+  },
+  "platforms": {
+    "ubuntu": ">= 10.04"
+  },
+  "maintainer": "Igal Koshevoy",
+  "long_description": "",
+  "version": "0.0.1",
+  "recommendations": {
+  },
+  "recipes": {
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Resource for building and stowing software.",
+  "providing": {
+  }
+}

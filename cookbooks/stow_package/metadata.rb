@@ -1,0 +1,7 @@
+name 'stow'
+version '0.0.1'
+description 'Resource for building and stowing software.'
+maintainer_email 'igal@pragmaticraft.com'
+maintainer 'Igal Koshevoy'
+license 'MIT'
+supports 'ubuntu', '>= 10.04'

@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "stow": "~> 0.0.1"
+  },
+  "name": "antipackaging",
+  "maintainer_email": "igal@pragmaticraft.com",
+  "attributes": {
+  },
+  "license": "MIT",
+  "suggestions": {
+  },
+  "platforms": {
+    "ubuntu": ">= 10.04"
+  },
+  "maintainer": "Igal Koshevoy",
+  "long_description": "",
+  "version": "0.0.1",
+  "recommendations": {
+  },
+  "recipes": {
+    "antipackaging::uninstall": "Example of using stowify resource to uninstall software",
+    "antipackaging::standalone": "Example of a standalone recipe to build and stow software",
+    "antipackaging::stowify": "Example of using stowify resource to build and stow software"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Examples of avoiding packaging like a barbarian.",
+  "providing": {
+  }
+}
