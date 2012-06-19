@@ -15,6 +15,8 @@ DISCLAIMER: Packages are the "correct" way. Avoid them at your own risk.
 
 Barbaric analogy: Looting may provide a much higher value for the effort invested than agriculture. However, it's wrong, unsustainable and dangerous.
 
+Why: You can save phenomenal amounts of time by avoiding packaging in certain cases. Doing packaging "correctly" can require weeks to months to learn bizarre tools, setup new build and repository servers, change your workflow, reverse-engineer existing packages, etc. In contrast, very complete solutions leveraging your existing configuration system can be designed in hours to days, and adding support for managing new application with them can sometimes be done within minutes.
+
 Scope: When this document talks about packages, it's referring to things like rpm's and deb's -- but not Rubygems, Python Eggs, PEAR, CPAN, etc.
 
 How to avoid packaging:
