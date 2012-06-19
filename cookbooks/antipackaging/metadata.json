@@ -18,9 +18,9 @@
   "recommendations": {
   },
   "recipes": {
-    "antipackaging::uninstall": "Example of using stowify resource to uninstall software",
-    "antipackaging::standalone": "Example of a standalone recipe to build and stow software",
-    "antipackaging::stowify": "Example of using stowify resource to build and stow software"
+    "antipackaging::uninstall": "Example of using custom resource to uninstall software",
+    "antipackaging::standalone": "Example of using recipe to install software",
+    "antipackaging::stow": "Example of using custom resource to install software"
   },
   "groupings": {
   },

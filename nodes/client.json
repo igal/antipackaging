@@ -1,5 +1,5 @@
 {
   "run_list": [
-    "antipackaging::stowify"
+    "antipackaging::stow"
   ]
 }

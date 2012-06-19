@@ -89,15 +89,15 @@ Here's how [stow](http://www.gnu.org/software/stow/) is used from a shell, which
 Recipes
 -------
 
-* [standalone](http://github.com/igal/antipackaging/blob/master/cookbooks/antipackaging/recipes/standalone.rb) - demonstrates compiling, installing and stowing `nginx` in a single file.
-* [stowify](http://github.com/igal/antipackaging/blob/master/cookbooks/antipackaging/recipes/stowify.rb) - demonstrates compiling, installing and stowing `nginx` and `ts` using a reusable custom `stowify` resource/provider.
-* [uninstall](http://github.com/igal/antipackaging/blob/master/cookbooks/antipackaging/recipes/uninstall.rb) - demonstrates uninstalling a stowed `nginx` and `ts` using a reusable custom `stowify` resource/provider.
+* [standalone](http://github.com/igal/antipackaging/blob/master/cookbooks/antipackaging/recipes/standalone.rb) - An easy-to-understand Chef recipe to download, compile, install and stow an application.
+* [stow](http://github.com/igal/antipackaging/blob/master/cookbooks/antipackaging/recipes/stow.rb) - A streamlined process for installing different applications using a custom resource.
+* [uninstall](http://github.com/igal/antipackaging/blob/master/cookbooks/antipackaging/recipes/uninstall.rb) - A streamlined process for uninstalling different applications using a custom resource.
 
 Resources and Providers
 -----------------------
 
-* [stowify resource](http://github.com/igal/antipackaging/blob/master/cookbooks/stowify/resources/default.rb) - describes parameters for the `stowify` resource.
-* [stowify provider](http://github.com/igal/antipackaging/blob/master/cookbooks/stowify/providers/default.rb) - implements the `stowify` resource.
+* [stow resource](http://github.com/igal/antipackaging/blob/master/cookbooks/stow_package/resources/default.rb) - A custom Chef resource to download, compile, install and stow applications.
+* [stow provider](http://github.com/igal/antipackaging/blob/master/cookbooks/stow_package/providers/default.rb) - A custom Chef provider to implement the above resource.
 
 Running examples
 ----------------
@@ -118,9 +118,9 @@ Apply the `standalone` recipe to install `nginx`:
 
     pocketknife client -r antipackaging::standalone
 
-Apply the `stowify` recipe to install `nginx` and `ts` if needed using a reusable resource:
+Apply the `stow` recipe to install `nginx` and `ts` if needed using a reusable resource:
 
-    pocketknife client -r antipackaging::stowify
+    pocketknife client -r antipackaging::stow
 
 Apply the `uninstall` recipe to uninstall `nginx` and `ts`:
 
