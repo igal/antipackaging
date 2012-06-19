@@ -102,17 +102,18 @@ Resources and Providers
 Running examples
 ----------------
 
-To try the examples, you should setup a test machine running Ubuntu 10.04 that will run the code. Either name the machine `client` in your `/etc/hosts`, or rename `nodes/client.json` so that `client` is actual name.
+To run the examples, you should setup a test machine running Ubuntu 10.04 that will run the code. Either name the machine `client` in your `/etc/hosts`, or rename `nodes/client.json` so that `client` is actual name.
 
 Checkout this repository and go into it:
 
+    git clone git://github.com/igal/antipackaging.git
     cd antipackaging
 
-Install pocketknife, if you don't already have it -- you may need to use `sudo`:
+Install pocketknife, you may need to use `sudo`:
 
     gem install pocketknife
 
-The following commands will apply changes to `client`. The first time you use these, you may be asked to install Chef on the client, agree to this or install it yourself. Because these download and compile code, they make take some time.
+The following commands will apply changes to `client`. The first time you use these, you may be asked to install Chef on the client, agree to this or install it yourself. Because these download and compile code, they may take a few minutes.
 
 Apply the `standalone` recipe to install `nginx`:
 
