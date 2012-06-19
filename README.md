@@ -98,8 +98,8 @@ Recipes
 Resources and Providers
 -----------------------
 
-* [stow resource](http://github.com/igal/antipackaging/blob/master/cookbooks/stow_package/resources/default.rb) - A custom Chef resource to download, compile, install and stow applications.
-* [stow provider](http://github.com/igal/antipackaging/blob/master/cookbooks/stow_package/providers/default.rb) - A custom Chef provider to implement the above resource.
+* [stow resource](http://github.com/igal/antipackaging/blob/master/cookbooks/stow/resources/default.rb) - A custom Chef resource to download, compile, install and stow applications.
+* [stow provider](http://github.com/igal/antipackaging/blob/master/cookbooks/stow/providers/default.rb) - A custom Chef provider to implement the above resource.
 
 Running examples
 ----------------
